@@ -2,6 +2,18 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.section{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discripsion{
+    color: ;
+    text-align: center;
+    font-size: 18pxgi;
+}
+]
 /*nav related styles */
 nav{
     display: flex;
@@ -17,7 +29,7 @@ nav{
     line-height: normal;
 }
 .span{
-    color: hsl(67, 100%, 50%);
+    color: hsl(67, 89%, 35%);
 }
 nav > ul{
     display: flex;
@@ -44,13 +56,40 @@ nav a{
 }
 .header{
     background: rgb(244, 240, 237);
-    padding: ;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
 }
 .bannar .profail pic{
     width: 500px;
+}
+.bannar-contai{
+    max-width: 500px;
+}
+.hi{
+   font-size: 45px;
+   color: #474747;
+   margin-bottom: 0;
+}
+.roni{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* main section style */
+
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #f6f5f3;
+    margin: 130px 0;
+
 }
