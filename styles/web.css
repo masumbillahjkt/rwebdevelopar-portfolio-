@@ -6,6 +6,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .roni-title{
   color: #181818; 
@@ -35,4 +36,28 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.header{
+background: floralwhite;
+
+}
+.bannar{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+}
+.profail-img{
+    width: 500px;
+}
+.contact{
+    border-radius: 5px;
+    background: wheat;
+    border: 0;
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 35px; 
+}
+.bannar-taxt{
+    
 }
