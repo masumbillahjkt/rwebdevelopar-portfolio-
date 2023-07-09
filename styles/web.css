@@ -3,7 +3,9 @@ body{
     font-family: 'Loto', sans-serif;
 }
 nav{
-  display: flex;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .roni-title{
   color: #181818; 
@@ -12,4 +14,25 @@ nav{
 }
 .color-ch-n{
     color: #F21010;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.button-primary {
+    border-radius: 5px;
+    background: #F21010;
+    border: 0;
+    color: white
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
