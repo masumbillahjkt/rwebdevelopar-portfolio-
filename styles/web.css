@@ -130,6 +130,26 @@ main section{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    line-height: normal;
 }
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resuume-item-drc{
+    color: #757575;
+}
+.resuume-item-ins{
+    color: #757575;
+}
+.resume-item-title{
+    color:#474747 ;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    display: flex;
 }
