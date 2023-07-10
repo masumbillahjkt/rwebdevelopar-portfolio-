@@ -151,5 +151,13 @@ main section{
     margin: 30px;
 }
 .download-cv{
+    text-align: center;
+    margin: 50px;
+}
+footer{
     display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    
 }
